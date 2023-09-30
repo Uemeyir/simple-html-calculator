@@ -1,0 +1,59 @@
+body {
+    background-color: #3D0000;
+}
+
+.frameCl {
+    position: absolute;
+    height: 600px;
+    width: 400px;
+    background-color: blue;
+    left: 37%;
+    top: 15%;
+    margin: 0;
+    padding: 0;
+    border: 4px solid black;
+}
+
+.resultField {
+    position: relative;
+    background-color: gray;
+    height: 100px;
+    width: 400px;
+    margin: 0;
+    padding: 0;
+}
+
+.result {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    padding-top: 10%;
+    padding-right: 5%;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.oneField {
+    display: flex;
+    position: absolute;
+    color: white;
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background: black;
+    color: white;
+    height: 100%;
+    width: 100%;
+    transition: background-color 0.7s;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: darkgray;
+}
